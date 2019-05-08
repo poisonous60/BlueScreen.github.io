@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+    <!-- p5 적용하기! -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- p5 적용하기! -->
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,6 +40,10 @@
 <body id="page-top" class="index">
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
+    <!-- p5 적용하기! -->
+    <script src="sketch.js"></script>
+    <!-- p5 적용하기! -->
+
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
@@ -58,7 +68,7 @@
                         <a href="#정보">정보</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#여기뭐하지"">여기뭐하지</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -72,12 +82,11 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="[크기변환][크기변환]77449.jpg
-                  " alt="">
+                    <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <h1 class="name"></h1>
+                        <h1 class="name">Loading...</h1>
                         <hr class="star-light">
-                        <span class="skills">진주고등학교 컴퓨터 동아리 블루스크린 소개 홈페이지입니다. <공사중></span>
+                        <span class="skills">블루스크린 소개 홈페이지입니다. <공사중></span>
                     </div>
                 </div>
             </div>
@@ -89,41 +98,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>부서 소개</h2>
+                    <h2>발표작</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="Program-Supercomputer.png" class="img-responsive" alt="Game controller">
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="[크기변환]unity-icon-png-27_jpg.png
-                        " class="img-responsive" alt="Safe">
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="[크기변환]다운로드.jpg
-                      " class="img-responsive" alt="Submarine">
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
                     </a>
                 </div>
             </div>
@@ -141,14 +148,14 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>아직 제작중인 사이트입니다.</p>
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>아직 제작중인 사이트입니다.</p>
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-
-
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
                     </a>
                 </div>
             </div>
@@ -160,7 +167,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>여기뭐넣지</h2>
+                    <h2>Contact Me</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -216,12 +223,12 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>오시는길</h3>
-                        <p>경상남도 진주시
-                            <br>상봉동 진주고등학교</p>
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place
+                            <br>Beverly Hills, CA 90210</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>진주고에 대해...</h3>
+                        <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="#" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
@@ -241,8 +248,8 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>여기뭐넣을까</h3>
-                        <p>여기뭐넣을지 추천좀</a>.</p>
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -278,10 +285,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2></h2>
+                            <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>게임부는 유니티를 이용한 게임을 만드는'''</p>
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -315,10 +322,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>웹</h2>
+                            <h2>Project Title</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>게임부는 유니티를 이용한 게임을 만드는</p>
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -352,10 +359,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>게임</h2>
+                            <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="safe.png" class="img-responsive img-centered" alt="">
-                            <p>블루스크린의 부서 설명이 들어갈 칸입니다.</p>
+                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -389,11 +396,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>프로그램</h2>
+                            <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="safe.png" class="img-responsive img-centered" alt="">
-                            <p>블루스크린의 부서 설명이 들어갈 칸입니다
-                        </p>
+                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -427,10 +433,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>게임</h2>
+                            <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="safe.png" class="img-responsive img-centered" alt="">
-                            <p>블루스크린의 부서 설명이 들어갈 칸입니다</p>
+                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -464,10 +470,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>웹</h2>
+                            <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="safe.png" class="img-responsive img-centered" alt="">
-                            <p>블루스크린의 부서 설명이 들어갈 칸입니다</p>
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
